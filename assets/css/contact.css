@@ -20,16 +20,14 @@ body {
     padding: 0;
 }
 
-.first-part{
+h1{
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 42px;
     color: white;
-    font-weight: bold;
-    margin-bottom: 50px;
-    cursor: pointer;
+    text-shadow: 6px 6px green;
 }
 
 .option-part {
