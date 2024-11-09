@@ -22,19 +22,23 @@ h1 {
 }
 
 main {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    padding-bottom: 20px;
 }
 
 .product-div {
     aspect-ratio: 1/1;
-    border: 2px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    overflow: hidden;
 }
 
 img {
@@ -43,6 +47,31 @@ img {
 
 .inner {
     width: 100%;
+    max-height: 100px;
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.info-div {
+    width: 96%;
+    padding-bottom: 4px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    text-align: justify;
+    font-size: 11px;
+}
+
+.product-div:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 0, 1);
+}
+
+.product-div:hover .inner {
+    max-height: 0px;
+}
+
+.product-div:hover .info-div {
+    max-height: 100px;
 }
