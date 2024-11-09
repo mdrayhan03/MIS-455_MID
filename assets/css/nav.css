@@ -25,14 +25,10 @@ li {
     border-bottom: 4px solid transparent;
 }
 
-li:first-child {
-    border-radius: 10px;
-}
-
 li:hover {
     background-color: black;
     color: white;
-    
+    border-bottom: 4px solid black; 
 }
 
 .active {
