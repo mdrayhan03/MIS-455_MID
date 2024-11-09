@@ -1,6 +1,9 @@
+header {
+    width: 96%;
+}
 nav {
     margin-top: 20px;
-    width: 96%;
+    width: 100%;
     background-color: white;
     box-shadow: 0 0 25px rgba(255, 255, 255, 1);
     border-radius: 10px;
@@ -33,4 +36,8 @@ li:hover {
 
 .active {
     border-bottom: 4px solid black;
+}
+
+footer i {
+    color: gray;
 }

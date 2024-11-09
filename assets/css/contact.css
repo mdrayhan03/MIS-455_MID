@@ -66,6 +66,7 @@ h1{
 }
 
 form {
+    margin-bottom: 30px;
     padding: 20px;
     width: 40%;
     display: flex;
